@@ -3,6 +3,8 @@
 #   default = var.apikey
 # }
 
+variable "apikey" {}
+
 provider "ibm" {
   ibmcloud_api_key      = var.apikey
   generation            = 2
