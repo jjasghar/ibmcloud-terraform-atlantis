@@ -13,7 +13,7 @@ variable "cluster_name" {
 }
 
 variable "number" {
-  default = "3"
+  default = "1"
 }
 
 variable "kube_version" {
